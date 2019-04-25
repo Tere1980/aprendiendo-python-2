@@ -1,17 +1,18 @@
 #!/usr/bin/python
-#coding=utf-8
 
-print "\n### Cadenas de texto ###"
+
+print ("\n### Cadenas de texto ###")
+print("En python 3 no hace falta usar coding=utf-8 pero hay que añadir los paréntesis en print ('cadena')")
 
 # cadenas normales
 c = 'áèïóù'
-print "áèïóù" , type(c)
+print ("áèïóù" , type(c))
 # cadenas unicode
 c = u'áèïóù'
-print "u'áèïóù'" , type(c)
+print ("u'áèïóù'" , type(c))
 # cadenas raw
 r = r"\n"
-print "r\"\\n\"= " + r
+print ("r\"\\n\"= " + r)
 
 # cadenas con varias lineas triple comilla
 s = """
@@ -19,14 +20,14 @@ s = """
      parece texto
        centrado
     """
-print s
+print (s)
 
 # concatenar y multiplicar cadenas
 
 c1 = "Hola"
 c2 = " Mundo "
 s = c1 + c2
-print s
+print (s)
 
 s = (c1 + c2) * 3
-print s
+print (s)

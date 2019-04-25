@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-print "\n### Listas 3: Diccionarios ###"
+print ("\n### Listas 3: Diccionarios ###")
 
 # Los diccionarios son matrices asociativas, lo que viene a ser 
 # en PHP los arrays asociativos por clave y valor que tanto me gustan
@@ -11,9 +11,9 @@ frutas = { "Naranja":"Orange",
            "Fresa":"Strawberry",
            "Manzana":"Apple" }
 
-print "Manzana en ingles es: " + frutas["Manzana"]
+print ("Manzana en ingles es: " + frutas["Manzana"])
 
 # Modificando el diccionario por clave
 frutas["Manzana"] = "Poma"
 
-print "Manzana en catalan es: " + frutas["Manzana"]
+print ("Manzana en catalan es: " + frutas["Manzana"])
